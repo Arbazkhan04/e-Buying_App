@@ -11,6 +11,5 @@ if(process.env.NODE_ENV === 'development'){
 
 if(process.env.NODE_ENV === 'production'){
      MyEnviorment = dotenv.config({path:`${__dirname}/../Application_confirgration_prod.env`})
-
 }
 console.log(MyEnviorment)
