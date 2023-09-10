@@ -5,7 +5,7 @@ const cors = require('cors');
 const path = require('path');
 const bodyparser = require("body-parser");
 
-const ApplicationConfirgration=require('./configration/loadMyConfigrationFile') //first load env file then load other file
+// const ApplicationConfirgration=require('./configration/loadMyConfigrationFile') //first load env file then load other file
 //otherwise it will through an error like " MongoDb is not connectedMongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
 
 

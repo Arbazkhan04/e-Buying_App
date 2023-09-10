@@ -1,1 +1,4 @@
 /node_modules
+/Application_confirgration_test.env
+/Application_confirgration_dev.env
+/Application_confirgration_prod.env
